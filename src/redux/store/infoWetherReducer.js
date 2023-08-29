@@ -15,12 +15,12 @@ const defaultState = {
 export const infoWetherReducer = createReducer(defaultState, {
 
     [fetchWetherInfo]: function (state, { payload }) {
-        console.log(payload)
+        
         state.curentWetherInfo.info = payload;
 
     },
     [takeCordinates]: function (state, { payload }) {
-        console.log(payload)
+        
         state.curCordinates.push(payload)
     },
 
