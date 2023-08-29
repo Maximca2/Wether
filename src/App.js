@@ -1,5 +1,5 @@
 import OurMap from './pages/OurMap/OurMap';
-import InfoConditionAboutCurPlace from './pages/infoConditionAboutCurPlace/infoConditionAboutCurPlace';
+import InfoConditionAboutCurPlace from './pages/infoConditionAboutCurPlace/InfoConditionAboutCurPlace';
 
 import './App.css';
 
