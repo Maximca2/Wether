@@ -6,12 +6,12 @@ import { fetchInfoAboutCurInfo } from "../../services/servise";
 
 import style from "./infoConditionAboutCurPlace.module.scss";
 
+const defaultCord = [51.505, -0.09];
+
 function convertToZelsiumTemparature(curTemparature){
   const curNumber = curTemparature-32;
   const result = Math.trunc(curNumber/1.8)
   return result
-  
-
 }
 
 function filterOnMonth(arr) {
@@ -45,7 +45,7 @@ const InfoConditionAboutCurPlace = () => {
   const curInfoaboutWether = useSelector(
     (state) => state.toolkit.curentWetherInfo
   );
-  const defaultCord = [51.505, -0.09];
+  
 
   useEffect(() => {
     if (!curcord) {
