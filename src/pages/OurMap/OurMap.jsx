@@ -12,11 +12,11 @@ import { takeCordinates } from "../../redux/store/infoWetherReducer";
 import "./leaflett.scss";
 import "leaflet/dist/leaflet.css";
 
+const defaultCord = { lat: 51.505, lng: -0.09 };
+
 export default function OurMap() {
 
   const dispatch = useDispatch();
-  const defaultCord = { lat: 51.505, lng: -0.09 };
-
   const FindLocationCords = () => {
     const map = useMapEvents({
       click(e) {
