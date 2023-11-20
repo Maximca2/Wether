@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Wether/static/css/main.00d85f94.css",
+    "main.js": "/Wether/static/js/main.bdee7440.js",
+    "index.html": "/Wether/index.html",
+    "main.00d85f94.css.map": "/Wether/static/css/main.00d85f94.css.map",
+    "main.bdee7440.js.map": "/Wether/static/js/main.bdee7440.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00d85f94.css",
+    "static/js/main.bdee7440.js"
+  ]
+}
